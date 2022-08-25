@@ -48,6 +48,7 @@
  display: flex;
  justify-content: space-evenly;
  position: fixed;
+ /* top: 0; */
 }
 
 .items_div1{
@@ -143,8 +144,10 @@ cursor: pointer;
 
 }
 
+/* main div started here */
+
 .main_div{
-  height: 650px;
+  height: 700px;
   width: 100%;
   /* border: 2px solid blue; */
   display: flex;
@@ -155,7 +158,7 @@ cursor: pointer;
   height: 100%;
   width: 100%;
   /* border: 1px solid pink; */
- margin-top: 40px;
+ margin-top: 100px;
 }
 
 .home_img{
@@ -193,7 +196,7 @@ cursor: pointer;
   width: 280px;
   margin: auto;
    padding-bottom: 30px;
-   padding-top: 18px;
+   padding-top: 22px;
    color: #FFFFFF;
    background-color: #7856FF;
    border-radius: 4px;
@@ -321,6 +324,30 @@ font-weight: lighter;
 
 }
 
+
+.getStart_btn{
+  height: 55px;
+  width: 200px;
+  margin: auto;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   color: #FFFFFF;
+   /* white-space: nowrap; */
+   background-color: #7856FF;
+   border-radius: 4px;
+   font-weight: bolder;
+   font-size: 14px;
+   border: 0;
+   margin-left: -2px;
+}
+
+.getStart_btn:hover{
+  cursor: pointer;
+  background-color: #896cff;
+  
+  /* white-space: nowrap; */
+}
+
 .btn_img{
   height: 100%;
   width: 250px;
@@ -342,10 +369,342 @@ font-weight: lighter;
 }
 
 .fourth_main_div{
-  border: 1px solid teal;
-  height: 500px;
+  /* border: 1px solid teal; */
+  height: 560px;
+  width: 100%;
+  display: flex;
+}
+
+
+/* 4ht main div started here */
+
+.sub_left_fourth_main_div{
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid rgb(94, 24, 255); */
+}
+
+.sub_right_fourth_main_div{
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid rgb(94, 24, 255); */
+  display: flex;
+  background-color: #f6f6f7;
+  justify-content: center;
+
+}
+
+.sub_right_fourth_main_div  div{
+  width: 45%;
+  height: 400px;
+  /* border: 1px solid rgb(255, 39, 219); */
+  margin: auto;
+  text-align: left;
+
+
+}
+
+.mobile_img{
+  height: 100%;
   width: 100%;
 }
+
+.learn_btn{
+  height: 55px;
+  width: 140px;
+  margin: auto;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   color: #FFFFFF;
+   background-color: #7856FF;
+   border-radius: 4px;
+   font-weight: bolder;
+   font-size: 14px;
+   border: 0;
+   margin-left: -2px;
+}
+
+.learn_btn:hover{
+  cursor: pointer;
+  background-color: #896cff;
+}
+
+  div >h2{
+margin-bottom: -20px;
+font-size: 30px;
+color: #111324;
+/* font-weight: lighter; */
+font-family: 'Graphik Web',Helvetica,sans-serif;
+
+}
+  div >h2+p{
+  margin-top: 40px;
+}
+
+.sub_right_fourth_main_div  div >h2 i{
+  font-weight: lighter;
+}
+
+/* 4th main div ended here */
+
+/* 5th main div started here */
+
+.fifth_main_div{
+  width: 100%;
+  height: 500px;
+  /* border: 1px solid rgb(15, 255, 27); */
+  display: flex;
+  padding-top: 80px;
+}
+.fifth_main_div > .sub_left_fifth_main_div{
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid rgb(255, 21, 95); */
+  display: flex;
+}
+
+
+
+.fifth_main_div > .sub_right_fifth_main_div{
+  width: 60%;
+  height: 100%;
+  /* border: 1px solid rgb(255, 21, 95); */
+  display: flex;
+}
+
+.fifth_main_div > .sub_right_fifth_main_div > div{
+  width: 65%;
+  height: 70%;
+  /* border: 1px solid rgb(255, 21, 95); */
+  /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+  text-align: left;
+  margin: auto;
+  margin-left: 0px;
+
+}
+
+ .book_img{
+   height: 400px;
+   width: 90%;
+   margin-top: 20px;
+   /* border: 1px solid rgb(255, 21, 95); */
+   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+ }
+
+.email_btn{
+  height: 55px;
+  width: 140px;
+  margin: auto;
+   padding-bottom: 25px;
+   padding-top: 18px;
+   color: #7856FF;
+   background-color: #FFFFFF;
+   border-radius: 4px;
+   font-weight: bolder;
+   font-size: 16px;
+   border: 1px solid #7856FF;
+   margin-right: 2px;
+}
+
+.email_btn:hover{
+  cursor: pointer;
+  background-color: #896cff;
+  color: #FFFFFF;
+ }
+
+/* 6th main div started here */
+
+/* here is some issues with the code ill have to fix this ASAP */
+
+ .sixth_main_div{
+  width: 100%;
+  height: 400px;
+  /* border: 1px solid rgb(255, 21, 95); */
+ 
+
+ }
+
+.banner_img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.over_the_image{
+  position: absolute;
+  margin-top: -350px;
+  /* border: 1px solid rgb(255, 21, 95); */
+  width: 56.5%;
+  height: 30%;
+  text-align: left;
+  margin-left: 90px;
+
+}
+
+.over_the_image h3 {
+ color: #FFFFFF;
+ font-size: 1.5rem;
+ font-family: 'Graphik Web',Helvetica,sans-serif;
+ line-height: 35px;
+
+}
+
+.over_the_image p {
+  color: #FFFFFF;
+  font-family: 'Graphik Web',Helvetica,sans-serif;
+
+ }
+ 
+.see_rip_btn{
+  height: 55px;
+  width: 220px;
+  margin: auto;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   color: #7856FF;
+   /* white-space: nowrap; */
+   background-color: #FFFFFF;
+   border-radius: 4px;
+   font-weight: bolder;
+   font-size: 14px;
+   border: 0;
+   margin-left: -2px;
+}
+
+.see_rip_btn:hover{
+  color: #FFFFFF;
+  background-color:transparent;
+  border: 1px solid #FFFFFF;
+  cursor: pointer;
+}
+
+/* 6th main div ended here */
+/* 7th main div started here */
+
+.seventh_main_div{
+  height: 550px;
+  width: 100%;
+  /* border: 1px solid rgb(102, 25, 255); */
+  display: flex;
+}
+
+.sub_left_seventh_main_div , .sub_right_seventh_main_div{
+  height: 85%;
+  width: 100%;
+  /* border: 1px solid rgb(218, 13, 13); */
+}
+
+
+.sub_left_seventh_main_div >div{
+  height: 70%;
+  width: 55%;
+  /* border: 1px solid rgb(22, 255, 108); */
+  text-align: left;
+  margin:auto;
+  margin-top: 100px;
+  /* padding-bottom: -50px; */
+}
+
+.sub_left_seventh_main_div >div >h3{
+  color: #111324;
+  font-size: 32px;
+}
+
+.tree_img{
+  height: 85%;
+  width: 75%;
+  margin-top:80px;
+}
+
+.explore_btn{
+  height: 55px;
+  width: 220px;
+  margin: auto;
+   padding-bottom: 25px;
+   padding-top: 18px;
+   color: #7856FF;
+   background-color: #FFFFFF;
+   border-radius: 4px;
+   font-weight: bolder;
+   font-size: 16px;
+   border: 1px solid #7856FF;
+   margin-right: 2px;
+}
+
+.explore_btn:hover{
+  cursor: pointer;
+  background-color: #896cff;
+  color: #FFFFFF;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
