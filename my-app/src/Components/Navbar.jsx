@@ -36,8 +36,17 @@ function Navbar() {
           <option value="">Features</option>
           </select>
 
-          <div className="hide">I am shown when someone 
-           hovers over the div above.</div>
+          <div className="hide">
+            <p>Features Overview</p>
+            <p>Email Template Builder</p>
+            <p>Segmentation</p>
+            <p>Personalisation</p>
+            <p>Marketing Automation </p>
+            <p>Transactional Email</p>
+            <p>Analytics</p>
+            <p>Integrations</p>
+
+          </div>
 
           {/* <p className="item1">Features</p> */}
           {/* <Route exact path="/Login" component={Login} /> */}
@@ -227,10 +236,43 @@ function Navbar() {
 
      {/*7th Header ended here */}
 
+     {/* 8th main div started here  */}
+      
+      <div className="eighth_main_div">
+      <img src="./images/banner2.webp" className="banner_img" alt="" />
+       <div className='over_the_image'>
+         <h3>“Campaign Monitor helped transform us from a small idea to a real company thanks to their user-friendly tools — I honestly could not recommend them enough.”</h3>
+          <p>Ellen Hyslop, Co-Founder of The GIST</p>
+          <button className='see_rip_btn'>See The GIST's success</button>
+       </div>
+      </div>
+
+     {/* 8th main div ended here  */}
+
+     {/* 9th main div started here  */}
+
+     <div className="nineth_main_div">
+       <div>
+        <h2 className="heading_9th">
+           Get started with Campaign Monitor today
+        </h2>
+        <p>With our powerful yet easy-to-use tools, it's never been easier to make an impact with email marketing.</p>
+      <button className="see_rip_btn">
+         Sign up for free
+      </button>
+       </div>
+     </div>
+     {/* 9th main div ended here  */}
+
+     {/* footer start here */}
+      
+      <div></div>
+
+     {/* footer ended here */}
 
     
     </div>
-      
+       <img src="./images/footer.jpeg" className="banner_img" alt="" />
     </div>
   )
 }
